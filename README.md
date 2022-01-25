@@ -1,2 +1,2 @@
-# GitHubUnfollowers
-Find out who is not following you back on GitHub.
+# GitHubNonfollowers
+An Android App that displays a list of all users who don't follow you back on GitHub.
