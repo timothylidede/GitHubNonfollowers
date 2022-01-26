@@ -3,17 +3,12 @@ package com.savala.githubnonfollowers;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.Button;
 
-public class Home extends AppCompatActivity {
-
-    private Button mSignUp;
+public class SignUp extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
-
-        mSignUp
+        setContentView(R.layout.activity_sign_up);
     }
 }
