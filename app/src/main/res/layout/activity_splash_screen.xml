@@ -16,6 +16,24 @@
         android:layout_centerInParent="true"
         android:src="@drawable/github"/>
 
-    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GITHUB NONFOLLOWERS"
+        android:layout_below="@+id/fomlogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"/>
 
 </RelativeLayout>
