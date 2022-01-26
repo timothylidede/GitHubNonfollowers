@@ -10,11 +10,26 @@
     tools:context=".SplashScreen">
 
     <ImageView
-        android:id="@+id/fomlogo"
+        android:id="@+id/logo"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="150dp"
         android:src="@drawable/github"/>
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        app:backgroundTint="@color/black"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="SIGN IN"
+        android:foregroundGravity="center"
+        android:textSize="15dp"
+        android:background="@drawable/custom_button"/>
 
 </RelativeLayout>
